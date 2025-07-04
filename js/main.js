@@ -25,7 +25,7 @@ $scope.PushButton5_click = function() {$App.WorkNotes = localStorage.getItem("Wo
 $scope.GotoPage( "Work" );};
 $scope.PushButton7_click = function() {$App.HealthNotes = localStorage.getItem("HealthNotes");
 $scope.GotoPage( "Health" );};
-$scope.PushButton9_click = function() {$App.KnowTNotesNotes = localStorage.getItem("KnowTNotesNotes");
+$scope.PushButton9_click = function() {$App.KnowTNotes = localStorage.getItem("KnowTNotes");
 $scope.GotoPage( "KnowThyself" );};
 $scope.PushButton12_click = function() {$App.Notes = localStorage.getItem("Notes");
 $scope.GotoPage( "Notes" );};
@@ -70,7 +70,7 @@ NeoApp.controller("KnowThyself_Ctrl", function($scope,$rootScope,$route,$timeout
 $App.NAB.PageNumber = 8;
 $App.NAB.PageID = "KnowThyself";
 $scope.PushButton10_click = function() {$scope.GotoPage( "Home" );};
-$scope.TextArea6_change = function() {localStorage.setItem("KnowTNotesNotes",$App.KnowTNotesNotes);};
+$scope.TextArea6_change = function() {localStorage.setItem("KnowTNotes",$App.KnowTNotes);};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {
