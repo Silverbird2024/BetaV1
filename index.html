@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Untitled Application" />
 <meta name="generator" content="VisualNEO Web (24.05.22)" />
-<meta name="date" content="2025-07-06 14:07" />
+<meta name="date" content="2025-07-06 16:26" />
 <meta name="version" content="1.0" />
 <meta name="copyright" content="Copyright 2025 Author name" />
 <link rel="apple-touch-icon" href="img/default-icon.png" />
@@ -26,7 +26,7 @@
 <div ng-controller="NeoApp_CoreCtrl" ng-view ng-cloak id="ng-view" class="app-viewport[NAB._pageEffect]"></div>
 <script type="text/ng-template" id="Home">
 <div class="neopage" id="Home">
-<h1 id="Headline1" class="[NAB.Headline1_effect]" ng-style="NAB.Headline1_style" ng-hide="NAB.Headline1_hidden" ng-disabled="NAB.Headline1_disabled">betaV1-03</h1>
+<h1 id="Headline1" class="[NAB.Headline1_effect]" ng-style="NAB.Headline1_style" ng-hide="NAB.Headline1_hidden" ng-disabled="NAB.Headline1_disabled" ng-click="Headline1_click()">betaV1-04</h1>
 <button id="PushButton459" type="button"  class="btn btn-default [NAB.PushButton459_effect]" ng-style="NAB.PushButton459_style" ng-hide="NAB.PushButton459_hidden" ng-disabled="NAB.PushButton459_disabled" ng-click="PushButton459_click()">Daily Sheet</button>
 <button id="PushButton458" type="button"  class="btn btn-default [NAB.PushButton458_effect]" ng-style="NAB.PushButton458_style" ng-hide="NAB.PushButton458_hidden" ng-disabled="NAB.PushButton458_disabled" ng-click="PushButton458_click()">Update now<br></button>
 <button id="PushButton461" type="button"  class="btn btn-default [NAB.PushButton461_effect]" ng-style="NAB.PushButton461_style" ng-hide="NAB.PushButton461_hidden" ng-disabled="NAB.PushButton461_disabled" ng-click="PushButton461_click()">Daily Prayer</button>
@@ -35,12 +35,22 @@
 <button id="PushButton7" type="button"  class="btn btn-default [NAB.PushButton7_effect]" ng-style="NAB.PushButton7_style" ng-hide="NAB.PushButton7_hidden" ng-disabled="NAB.PushButton7_disabled" ng-click="PushButton7_click()">Health</button>
 <button id="PushButton9" type="button"  class="btn btn-default [NAB.PushButton9_effect]" ng-style="NAB.PushButton9_style" ng-hide="NAB.PushButton9_hidden" ng-disabled="NAB.PushButton9_disabled" ng-click="PushButton9_click()">Know <br>Thyself</button>
 <button id="PushButton12" type="button"  class="btn btn-default [NAB.PushButton12_effect]" ng-style="NAB.PushButton12_style" ng-hide="NAB.PushButton12_hidden" ng-disabled="NAB.PushButton12_disabled" ng-click="PushButton12_click()">Notes</button>
+<button id="PushButton23" type="button"  class="btn btn-default [NAB.PushButton23_effect]" ng-style="NAB.PushButton23_style" ng-hide="NAB.PushButton23_hidden" ng-disabled="NAB.PushButton23_disabled" ng-click="PushButton23_click()">ADHD helper <br>Dictionary</button>
+</div>
+</script>
+<script type="text/ng-template" id="Version">
+<div class="neopage" id="Version">
+<button id="PushButton22" type="button"  class="btn btn-default [NAB.PushButton22_effect]" ng-style="NAB.PushButton22_style" ng-hide="NAB.PushButton22_hidden" ng-disabled="NAB.PushButton22_disabled" ng-click="PushButton22_click()">Home<br></button>
+<h1 id="Headline78" class="[NAB.Headline78_effect]" ng-style="NAB.Headline78_style" ng-hide="NAB.Headline78_hidden" ng-disabled="NAB.Headline78_disabled">Notes:</h1>
+<textarea id="TextArea34" class="form-control [NAB.TextArea34_effect]" ng-style="NAB.TextArea34_style" ng-hide="NAB.TextArea34_hidden" ng-disabled="NAB.TextArea34_disabled" ng-model="$root.NotesVH2" ng-change="TextArea34_change()"></textarea>
+<h1 id="Headline79" class="[NAB.Headline79_effect]" ng-style="NAB.Headline79_style" ng-hide="NAB.Headline79_hidden" ng-disabled="NAB.Headline79_disabled">Version:</h1>
+<h1 id="Headline80" class="[NAB.Headline80_effect]" ng-style="NAB.Headline80_style" ng-hide="NAB.Headline80_hidden" ng-disabled="NAB.Headline80_disabled">Version History:</h1>
+<textarea id="TextArea35" class="form-control [NAB.TextArea35_effect]" ng-style="NAB.TextArea35_style" ng-hide="NAB.TextArea35_hidden" ng-disabled="NAB.TextArea35_disabled" ng-model="$root.NotesVH1" ng-change="TextArea35_change()"></textarea>
 </div>
 </script>
 <script type="text/ng-template" id="Notes">
 <div class="neopage" id="Notes">
 <button id="PushButton11" type="button"  class="btn btn-default [NAB.PushButton11_effect]" ng-style="NAB.PushButton11_style" ng-hide="NAB.PushButton11_hidden" ng-disabled="NAB.PushButton11_disabled" ng-click="PushButton11_click()">Home<br></button>
-<h1 id="Headline15" class="[NAB.Headline15_effect]" ng-style="NAB.Headline15_style" ng-hide="NAB.Headline15_hidden" ng-disabled="NAB.Headline15_disabled">betaV1-01</h1>
 <h1 id="Headline16" class="[NAB.Headline16_effect]" ng-style="NAB.Headline16_style" ng-hide="NAB.Headline16_hidden" ng-disabled="NAB.Headline16_disabled">Notes:</h1>
 <textarea id="TextArea7" class="form-control [NAB.TextArea7_effect]" ng-style="NAB.TextArea7_style" ng-hide="NAB.TextArea7_hidden" ng-disabled="NAB.TextArea7_disabled" ng-model="$root.Notes" ng-change="TextArea7_change()"></textarea>
 </div>
@@ -48,25 +58,36 @@
 <script type="text/ng-template" id="DailySheet">
 <div class="neopage" id="DailySheet">
 <button id="PushButton2" type="button"  class="btn btn-default [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()">Home<br></button>
-<h1 id="Headline2" class="[NAB.Headline2_effect]" ng-style="NAB.Headline2_style" ng-hide="NAB.Headline2_hidden" ng-disabled="NAB.Headline2_disabled">betaV1-01</h1>
 <h1 id="Headline3" class="[NAB.Headline3_effect]" ng-style="NAB.Headline3_style" ng-hide="NAB.Headline3_hidden" ng-disabled="NAB.Headline3_disabled">Daily Sheet</h1>
 <textarea id="TextArea2" class="form-control [NAB.TextArea2_effect]" ng-style="NAB.TextArea2_style" ng-hide="NAB.TextArea2_hidden" ng-disabled="NAB.TextArea2_disabled" ng-model="$root.DSNotes" ng-change="TextArea2_change()"></textarea>
+<h1 id="Headline2" class="[NAB.Headline2_effect]" ng-style="NAB.Headline2_style" ng-hide="NAB.Headline2_hidden" ng-disabled="NAB.Headline2_disabled">betaV1</h1>
+<textarea id="TextArea33" class="form-control [NAB.TextArea33_effect]" ng-style="NAB.TextArea33_style" ng-hide="NAB.TextArea33_hidden" ng-disabled="NAB.TextArea33_disabled" ng-model="$root.DS1Notes" ng-change="TextArea33_change()"></textarea>
+<h1 id="Headline15" class="[NAB.Headline15_effect]" ng-style="NAB.Headline15_style" ng-hide="NAB.Headline15_hidden" ng-disabled="NAB.Headline15_disabled" ng-click="Headline15_click()">Notes:</h1>
+<h1 id="Headline77" class="[NAB.Headline77_effect]" ng-style="NAB.Headline77_style" ng-hide="NAB.Headline77_hidden" ng-disabled="NAB.Headline77_disabled" ng-click="Headline77_click()">Components:</h1>
 </div>
 </script>
 <script type="text/ng-template" id="Prayer">
 <div class="neopage" id="Prayer">
 <button id="PushButton1" type="button"  class="btn btn-default [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()">Home<br></button>
-<h1 id="Headline5" class="[NAB.Headline5_effect]" ng-style="NAB.Headline5_style" ng-hide="NAB.Headline5_hidden" ng-disabled="NAB.Headline5_disabled">betaV1-01</h1>
 <h1 id="Headline6" class="[NAB.Headline6_effect]" ng-style="NAB.Headline6_style" ng-hide="NAB.Headline6_hidden" ng-disabled="NAB.Headline6_disabled">Prayer:</h1>
 <textarea id="TextArea1" class="form-control [NAB.TextArea1_effect]" ng-style="NAB.TextArea1_style" ng-hide="NAB.TextArea1_hidden" ng-disabled="NAB.TextArea1_disabled" ng-model="$root.PrayerNotes" ng-change="TextArea1_change()"></textarea>
+<h1 id="Headline5" class="[NAB.Headline5_effect]" ng-style="NAB.Headline5_style" ng-hide="NAB.Headline5_hidden" ng-disabled="NAB.Headline5_disabled">betaV1</h1>
+</div>
+</script>
+<script type="text/ng-template" id="Dictionary">
+<div class="neopage" id="Dictionary">
+<button id="PushButton24" type="button"  class="btn btn-default [NAB.PushButton24_effect]" ng-style="NAB.PushButton24_style" ng-hide="NAB.PushButton24_hidden" ng-disabled="NAB.PushButton24_disabled" ng-click="PushButton24_click()">Home<br></button>
+<h1 id="Headline81" class="[NAB.Headline81_effect]" ng-style="NAB.Headline81_style" ng-hide="NAB.Headline81_hidden" ng-disabled="NAB.Headline81_disabled">Dictionary:</h1>
+<textarea id="TextArea36" class="form-control [NAB.TextArea36_effect]" ng-style="NAB.TextArea36_style" ng-hide="NAB.TextArea36_hidden" ng-disabled="NAB.TextArea36_disabled" ng-model="$root.DictionaryNotes" ng-change="TextArea36_change()"></textarea>
+<h1 id="Headline82" class="[NAB.Headline82_effect]" ng-style="NAB.Headline82_style" ng-hide="NAB.Headline82_hidden" ng-disabled="NAB.Headline82_disabled">betaV1</h1>
 </div>
 </script>
 <script type="text/ng-template" id="Famous">
 <div class="neopage" id="Famous">
 <button id="PushButton4" type="button"  class="btn btn-default [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()">Home<br></button>
-<h1 id="Headline7" class="[NAB.Headline7_effect]" ng-style="NAB.Headline7_style" ng-hide="NAB.Headline7_hidden" ng-disabled="NAB.Headline7_disabled">betaV1-01</h1>
 <h1 id="Headline8" class="[NAB.Headline8_effect]" ng-style="NAB.Headline8_style" ng-hide="NAB.Headline8_hidden" ng-disabled="NAB.Headline8_disabled">Famous:</h1>
 <textarea id="TextArea3" class="form-control [NAB.TextArea3_effect]" ng-style="NAB.TextArea3_style" ng-hide="NAB.TextArea3_hidden" ng-disabled="NAB.TextArea3_disabled" ng-model="$root.FamousNotes" ng-change="TextArea3_change()"></textarea>
+<h1 id="Headline7" class="[NAB.Headline7_effect]" ng-style="NAB.Headline7_style" ng-hide="NAB.Headline7_hidden" ng-disabled="NAB.Headline7_disabled">betaV1</h1>
 </div>
 </script>
 <script type="text/ng-template" id="Work">
@@ -102,6 +123,7 @@
 </script>
 <script type="text/ng-template" id="qkt">
 <div class="neopage" id="qkt">
+<h1 id="Headline59" class="[NAB.Headline59_effect]" ng-style="NAB.Headline59_style" ng-hide="NAB.Headline59_hidden" ng-disabled="NAB.Headline59_disabled" ng-click="Headline59_click()">Question 3-20:</h1>
 <button id="PushButton14" type="button"  class="btn btn-default [NAB.PushButton14_effect]" ng-style="NAB.PushButton14_style" ng-hide="NAB.PushButton14_hidden" ng-disabled="NAB.PushButton14_disabled" ng-click="PushButton14_click()">Home<br></button>
 <h1 id="Headline22" class="[NAB.Headline22_effect]" ng-style="NAB.Headline22_style" ng-hide="NAB.Headline22_hidden" ng-disabled="NAB.Headline22_disabled">betaV1-01</h1>
 <textarea id="TextArea8" class="form-control [NAB.TextArea8_effect]" ng-style="NAB.TextArea8_style" ng-hide="NAB.TextArea8_hidden" ng-disabled="NAB.TextArea8_disabled" ng-model="$root.KnowTNotesQ" ng-change="TextArea8_change()"></textarea>
@@ -116,12 +138,52 @@
 <textarea id="TextArea12" class="form-control [NAB.TextArea12_effect]" ng-style="NAB.TextArea12_style" ng-hide="NAB.TextArea12_hidden" ng-disabled="NAB.TextArea12_disabled" ng-model="$root.KnowTNotesQg" ng-change="TextArea12_change()"></textarea>
 <h1 id="Headline54" class="[NAB.Headline54_effect]" ng-style="NAB.Headline54_style" ng-hide="NAB.Headline54_hidden" ng-disabled="NAB.Headline54_disabled" ng-click="Headline54_click()">Notes:</h1>
 <h1 id="Headline55" class="[NAB.Headline55_effect]" ng-style="NAB.Headline55_style" ng-hide="NAB.Headline55_hidden" ng-disabled="NAB.Headline55_disabled" ng-click="Headline55_click()">Question Groups:</h1>
+<textarea id="TextArea13" class="form-control [NAB.TextArea13_effect]" ng-style="NAB.TextArea13_style" ng-hide="NAB.TextArea13_hidden" ng-disabled="NAB.TextArea13_disabled" ng-model="$root.KnowTNotesQ1" ng-change="TextArea13_change()"></textarea>
+<h1 id="Headline56" class="[NAB.Headline56_effect]" ng-style="NAB.Headline56_style" ng-hide="NAB.Headline56_hidden" ng-disabled="NAB.Headline56_disabled" ng-click="Headline56_click()">Top 20 Questions:</h1>
+<h1 id="Headline57" class="[NAB.Headline57_effect]" ng-style="NAB.Headline57_style" ng-hide="NAB.Headline57_hidden" ng-disabled="NAB.Headline57_disabled" ng-click="Headline57_click()">Question 1-20:</h1>
+<h1 id="Headline58" class="[NAB.Headline58_effect]" ng-style="NAB.Headline58_style" ng-hide="NAB.Headline58_hidden" ng-disabled="NAB.Headline58_disabled" ng-click="Headline58_click()">Question 2-20:</h1>
+<textarea id="TextArea14" class="form-control [NAB.TextArea14_effect]" ng-style="NAB.TextArea14_style" ng-hide="NAB.TextArea14_hidden" ng-disabled="NAB.TextArea14_disabled" ng-model="$root.KnowTNotesQ2" ng-change="TextArea14_change()"></textarea>
+<textarea id="TextArea15" class="form-control [NAB.TextArea15_effect]" ng-style="NAB.TextArea15_style" ng-hide="NAB.TextArea15_hidden" ng-disabled="NAB.TextArea15_disabled" ng-model="$root.KnowTNotesQ3" ng-change="TextArea15_change()"></textarea>
+<h1 id="Headline60" class="[NAB.Headline60_effect]" ng-style="NAB.Headline60_style" ng-hide="NAB.Headline60_hidden" ng-disabled="NAB.Headline60_disabled" ng-click="Headline60_click()">Question 4-20:</h1>
+<textarea id="TextArea16" class="form-control [NAB.TextArea16_effect]" ng-style="NAB.TextArea16_style" ng-hide="NAB.TextArea16_hidden" ng-disabled="NAB.TextArea16_disabled" ng-model="$root.KnowTNotesQ4" ng-change="TextArea16_change()"></textarea>
+<textarea id="TextArea17" class="form-control [NAB.TextArea17_effect]" ng-style="NAB.TextArea17_style" ng-hide="NAB.TextArea17_hidden" ng-disabled="NAB.TextArea17_disabled" ng-model="$root.KnowTNotesQ5" ng-change="TextArea17_change()"></textarea>
+<h1 id="Headline61" class="[NAB.Headline61_effect]" ng-style="NAB.Headline61_style" ng-hide="NAB.Headline61_hidden" ng-disabled="NAB.Headline61_disabled" ng-click="Headline61_click()">Question 5-20:</h1>
+<textarea id="TextArea18" class="form-control [NAB.TextArea18_effect]" ng-style="NAB.TextArea18_style" ng-hide="NAB.TextArea18_hidden" ng-disabled="NAB.TextArea18_disabled" ng-model="$root.KnowTNotesQ6" ng-change="TextArea18_change()"></textarea>
+<h1 id="Headline62" class="[NAB.Headline62_effect]" ng-style="NAB.Headline62_style" ng-hide="NAB.Headline62_hidden" ng-disabled="NAB.Headline62_disabled" ng-click="Headline62_click()">Question 6-20:</h1>
+<h1 id="Headline63" class="[NAB.Headline63_effect]" ng-style="NAB.Headline63_style" ng-hide="NAB.Headline63_hidden" ng-disabled="NAB.Headline63_disabled" ng-click="Headline63_click()">Question 9-20:</h1>
+<textarea id="TextArea19" class="form-control [NAB.TextArea19_effect]" ng-style="NAB.TextArea19_style" ng-hide="NAB.TextArea19_hidden" ng-disabled="NAB.TextArea19_disabled" ng-model="$root.KnowTNotesQ7" ng-change="TextArea19_change()"></textarea>
+<h1 id="Headline64" class="[NAB.Headline64_effect]" ng-style="NAB.Headline64_style" ng-hide="NAB.Headline64_hidden" ng-disabled="NAB.Headline64_disabled" ng-click="Headline64_click()">Question 7-20:</h1>
+<h1 id="Headline65" class="[NAB.Headline65_effect]" ng-style="NAB.Headline65_style" ng-hide="NAB.Headline65_hidden" ng-disabled="NAB.Headline65_disabled" ng-click="Headline65_click()">Question 8-20:</h1>
+<textarea id="TextArea20" class="form-control [NAB.TextArea20_effect]" ng-style="NAB.TextArea20_style" ng-hide="NAB.TextArea20_hidden" ng-disabled="NAB.TextArea20_disabled" ng-model="$root.KnowTNotesQ8" ng-change="TextArea20_change()"></textarea>
+<textarea id="TextArea21" class="form-control [NAB.TextArea21_effect]" ng-style="NAB.TextArea21_style" ng-hide="NAB.TextArea21_hidden" ng-disabled="NAB.TextArea21_disabled" ng-model="$root.KnowTNotesQ9" ng-change="TextArea21_change()"></textarea>
+<h1 id="Headline66" class="[NAB.Headline66_effect]" ng-style="NAB.Headline66_style" ng-hide="NAB.Headline66_hidden" ng-disabled="NAB.Headline66_disabled" ng-click="Headline66_click()">Question 10-20:</h1>
+<textarea id="TextArea22" class="form-control [NAB.TextArea22_effect]" ng-style="NAB.TextArea22_style" ng-hide="NAB.TextArea22_hidden" ng-disabled="NAB.TextArea22_disabled" ng-model="$root.KnowTNotesQ10" ng-change="TextArea22_change()"></textarea>
+<textarea id="TextArea23" class="form-control [NAB.TextArea23_effect]" ng-style="NAB.TextArea23_style" ng-hide="NAB.TextArea23_hidden" ng-disabled="NAB.TextArea23_disabled" ng-model="$root.KnowTNotesQ11" ng-change="TextArea23_change()"></textarea>
+<h1 id="Headline67" class="[NAB.Headline67_effect]" ng-style="NAB.Headline67_style" ng-hide="NAB.Headline67_hidden" ng-disabled="NAB.Headline67_disabled" ng-click="Headline67_click()">Question 11-20:</h1>
+<textarea id="TextArea24" class="form-control [NAB.TextArea24_effect]" ng-style="NAB.TextArea24_style" ng-hide="NAB.TextArea24_hidden" ng-disabled="NAB.TextArea24_disabled" ng-model="$root.KnowTNotesQ12" ng-change="TextArea24_change()"></textarea>
+<h1 id="Headline68" class="[NAB.Headline68_effect]" ng-style="NAB.Headline68_style" ng-hide="NAB.Headline68_hidden" ng-disabled="NAB.Headline68_disabled" ng-click="Headline68_click()">Question 12-20:</h1>
+<h1 id="Headline69" class="[NAB.Headline69_effect]" ng-style="NAB.Headline69_style" ng-hide="NAB.Headline69_hidden" ng-disabled="NAB.Headline69_disabled" ng-click="Headline69_click()">Question 15-20:</h1>
+<textarea id="TextArea25" class="form-control [NAB.TextArea25_effect]" ng-style="NAB.TextArea25_style" ng-hide="NAB.TextArea25_hidden" ng-disabled="NAB.TextArea25_disabled" ng-model="$root.KnowTNotesQ13" ng-change="TextArea25_change()"></textarea>
+<h1 id="Headline70" class="[NAB.Headline70_effect]" ng-style="NAB.Headline70_style" ng-hide="NAB.Headline70_hidden" ng-disabled="NAB.Headline70_disabled" ng-click="Headline70_click()">Question 13-20:</h1>
+<h1 id="Headline71" class="[NAB.Headline71_effect]" ng-style="NAB.Headline71_style" ng-hide="NAB.Headline71_hidden" ng-disabled="NAB.Headline71_disabled" ng-click="Headline71_click()">Question 14-20:</h1>
+<textarea id="TextArea26" class="form-control [NAB.TextArea26_effect]" ng-style="NAB.TextArea26_style" ng-hide="NAB.TextArea26_hidden" ng-disabled="NAB.TextArea26_disabled" ng-model="$root.KnowTNotesQ14" ng-change="TextArea26_change()"></textarea>
+<textarea id="TextArea27" class="form-control [NAB.TextArea27_effect]" ng-style="NAB.TextArea27_style" ng-hide="NAB.TextArea27_hidden" ng-disabled="NAB.TextArea27_disabled" ng-model="$root.KnowTNotesQ15" ng-change="TextArea27_change()"></textarea>
+<h1 id="Headline72" class="[NAB.Headline72_effect]" ng-style="NAB.Headline72_style" ng-hide="NAB.Headline72_hidden" ng-disabled="NAB.Headline72_disabled" ng-click="Headline72_click()">Question 16-20:</h1>
+<textarea id="TextArea28" class="form-control [NAB.TextArea28_effect]" ng-style="NAB.TextArea28_style" ng-hide="NAB.TextArea28_hidden" ng-disabled="NAB.TextArea28_disabled" ng-model="$root.KnowTNotesQ16" ng-change="TextArea28_change()"></textarea>
+<textarea id="TextArea29" class="form-control [NAB.TextArea29_effect]" ng-style="NAB.TextArea29_style" ng-hide="NAB.TextArea29_hidden" ng-disabled="NAB.TextArea29_disabled" ng-model="$root.KnowTNotesQ17" ng-change="TextArea29_change()"></textarea>
+<h1 id="Headline73" class="[NAB.Headline73_effect]" ng-style="NAB.Headline73_style" ng-hide="NAB.Headline73_hidden" ng-disabled="NAB.Headline73_disabled" ng-click="Headline73_click()">Question 17-20:</h1>
+<textarea id="TextArea30" class="form-control [NAB.TextArea30_effect]" ng-style="NAB.TextArea30_style" ng-hide="NAB.TextArea30_hidden" ng-disabled="NAB.TextArea30_disabled" ng-model="$root.KnowTNotesQ18" ng-change="TextArea30_change()"></textarea>
+<h1 id="Headline74" class="[NAB.Headline74_effect]" ng-style="NAB.Headline74_style" ng-hide="NAB.Headline74_hidden" ng-disabled="NAB.Headline74_disabled" ng-click="Headline74_click()">Question 18-20:</h1>
+<textarea id="TextArea31" class="form-control [NAB.TextArea31_effect]" ng-style="NAB.TextArea31_style" ng-hide="NAB.TextArea31_hidden" ng-disabled="NAB.TextArea31_disabled" ng-model="$root.KnowTNotesQ19" ng-change="TextArea31_change()"></textarea>
+<h1 id="Headline75" class="[NAB.Headline75_effect]" ng-style="NAB.Headline75_style" ng-hide="NAB.Headline75_hidden" ng-disabled="NAB.Headline75_disabled" ng-click="Headline75_click()">Question 19-20:</h1>
+<textarea id="TextArea32" class="form-control [NAB.TextArea32_effect]" ng-style="NAB.TextArea32_style" ng-hide="NAB.TextArea32_hidden" ng-disabled="NAB.TextArea32_disabled" ng-model="$root.KnowTNotesQ20" ng-change="TextArea32_change()"></textarea>
+<h1 id="Headline76" class="[NAB.Headline76_effect]" ng-style="NAB.Headline76_style" ng-hide="NAB.Headline76_hidden" ng-disabled="NAB.Headline76_disabled" ng-click="Headline76_click()">Question 20-20:</h1>
 </div>
 </script>
 <script type="text/ng-template" id="ankt">
 <div class="neopage" id="ankt">
 <button id="PushButton16" type="button"  class="btn btn-default [NAB.PushButton16_effect]" ng-style="NAB.PushButton16_style" ng-hide="NAB.PushButton16_hidden" ng-disabled="NAB.PushButton16_disabled" ng-click="PushButton16_click()">Home<br></button>
-<h1 id="Headline30" class="[NAB.Headline30_effect]" ng-style="NAB.Headline30_style" ng-hide="NAB.Headline30_hidden" ng-disabled="NAB.Headline30_disabled">betaV1-01</h1>
+<h1 id="Headline30" class="[NAB.Headline30_effect]" ng-style="NAB.Headline30_style" ng-hide="NAB.Headline30_hidden" ng-disabled="NAB.Headline30_disabled">betaV1</h1>
 <textarea id="TextArea9" class="form-control [NAB.TextArea9_effect]" ng-style="NAB.TextArea9_style" ng-hide="NAB.TextArea9_hidden" ng-disabled="NAB.TextArea9_disabled" ng-model="$root.KnowTNotesA" ng-change="TextArea9_change()"></textarea>
 <button id="PushButton17" type="button"  class="btn btn-default [NAB.PushButton17_effect]" ng-style="NAB.PushButton17_style" ng-hide="NAB.PushButton17_hidden" ng-disabled="NAB.PushButton17_disabled"></button>
 <h1 id="Headline32" class="[NAB.Headline32_effect]" ng-style="NAB.Headline32_style" ng-hide="NAB.Headline32_hidden" ng-disabled="NAB.Headline32_disabled">65</h1>
@@ -136,7 +198,6 @@
 <script type="text/ng-template" id="a4nt">
 <div class="neopage" id="a4nt">
 <button id="PushButton18" type="button"  class="btn btn-default [NAB.PushButton18_effect]" ng-style="NAB.PushButton18_style" ng-hide="NAB.PushButton18_hidden" ng-disabled="NAB.PushButton18_disabled" ng-click="PushButton18_click()">Home<br></button>
-<h1 id="Headline38" class="[NAB.Headline38_effect]" ng-style="NAB.Headline38_style" ng-hide="NAB.Headline38_hidden" ng-disabled="NAB.Headline38_disabled">betaV1-01</h1>
 <textarea id="TextArea10" class="form-control [NAB.TextArea10_effect]" ng-style="NAB.TextArea10_style" ng-hide="NAB.TextArea10_hidden" ng-disabled="NAB.TextArea10_disabled" ng-model="$root.KnowTNotes4" ng-change="TextArea10_change()"></textarea>
 <button id="PushButton19" type="button"  class="btn btn-default [NAB.PushButton19_effect]" ng-style="NAB.PushButton19_style" ng-hide="NAB.PushButton19_hidden" ng-disabled="NAB.PushButton19_disabled"></button>
 <h1 id="Headline40" class="[NAB.Headline40_effect]" ng-style="NAB.Headline40_style" ng-hide="NAB.Headline40_hidden" ng-disabled="NAB.Headline40_disabled">65</h1>
@@ -146,12 +207,12 @@
 <h1 id="Headline37" class="[NAB.Headline37_effect]" ng-style="NAB.Headline37_style" ng-hide="NAB.Headline37_hidden" ng-disabled="NAB.Headline37_disabled" ng-click="Headline37_click()">analyse</h1>
 <h1 id="Headline42" class="[NAB.Headline42_effect]" ng-style="NAB.Headline42_style" ng-hide="NAB.Headline42_hidden" ng-disabled="NAB.Headline42_disabled" ng-click="Headline42_click()">a4</h1>
 <h1 id="Headline52" class="[NAB.Headline52_effect]" ng-style="NAB.Headline52_style" ng-hide="NAB.Headline52_hidden" ng-disabled="NAB.Headline52_disabled" ng-click="Headline52_click()">T</h1>
+<h1 id="Headline38" class="[NAB.Headline38_effect]" ng-style="NAB.Headline38_style" ng-hide="NAB.Headline38_hidden" ng-disabled="NAB.Headline38_disabled">betaV1</h1>
 </div>
 </script>
 <script type="text/ng-template" id="temkt">
 <div class="neopage" id="temkt">
 <button id="PushButton20" type="button"  class="btn btn-default [NAB.PushButton20_effect]" ng-style="NAB.PushButton20_style" ng-hide="NAB.PushButton20_hidden" ng-disabled="NAB.PushButton20_disabled" ng-click="PushButton20_click()">Home<br></button>
-<h1 id="Headline46" class="[NAB.Headline46_effect]" ng-style="NAB.Headline46_style" ng-hide="NAB.Headline46_hidden" ng-disabled="NAB.Headline46_disabled">betaV1-01</h1>
 <h1 id="Headline47" class="[NAB.Headline47_effect]" ng-style="NAB.Headline47_style" ng-hide="NAB.Headline47_hidden" ng-disabled="NAB.Headline47_disabled" ng-click="Headline47_click()">Know Thyself:Template</h1>
 <textarea id="TextArea11" class="form-control [NAB.TextArea11_effect]" ng-style="NAB.TextArea11_style" ng-hide="NAB.TextArea11_hidden" ng-disabled="NAB.TextArea11_disabled" ng-model="$root.KnowTNotesT" ng-change="TextArea11_change()"></textarea>
 <button id="PushButton21" type="button"  class="btn btn-default [NAB.PushButton21_effect]" ng-style="NAB.PushButton21_style" ng-hide="NAB.PushButton21_hidden" ng-disabled="NAB.PushButton21_disabled"></button>
@@ -161,6 +222,7 @@
 <h1 id="Headline44" class="[NAB.Headline44_effect]" ng-style="NAB.Headline44_style" ng-hide="NAB.Headline44_hidden" ng-disabled="NAB.Headline44_disabled" ng-click="Headline44_click()">analyse</h1>
 <h1 id="Headline45" class="[NAB.Headline45_effect]" ng-style="NAB.Headline45_style" ng-hide="NAB.Headline45_hidden" ng-disabled="NAB.Headline45_disabled" ng-click="Headline45_click()">a4</h1>
 <h1 id="Headline53" class="[NAB.Headline53_effect]" ng-style="NAB.Headline53_style" ng-hide="NAB.Headline53_hidden" ng-disabled="NAB.Headline53_disabled" ng-click="Headline53_click()">T</h1>
+<h1 id="Headline46" class="[NAB.Headline46_effect]" ng-style="NAB.Headline46_style" ng-hide="NAB.Headline46_hidden" ng-disabled="NAB.Headline46_disabled">betaV1</h1>
 </div>
 </script>
 <script type="text/ng-template" id="NewDialog">
