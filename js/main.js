@@ -29,6 +29,7 @@ $scope.PushButton9_click = function() {$App.KnowTNotes = localStorage.getItem("K
 $App.KnowTNotes4 = localStorage.getItem("KnowTNotes4");
 $App.KnowTNotesA = localStorage.getItem("KnowTNotesA");
 $App.KnowTNotesQ = localStorage.getItem("KnowTNotesQ");
+$App.KnowTNotesQg = localStorage.getItem("KnowTNotesQg");
 $App.KnowTNotesT = localStorage.getItem("KnowTNotesT");
 $scope.GotoPage( "KnowThyself" );};
 $scope.PushButton12_click = function() {$App.Notes = localStorage.getItem("Notes");
@@ -91,6 +92,9 @@ $scope.Headline26_click = function() {$scope.GotoPage( "qkt" );};
 $scope.Headline27_click = function() {$scope.GotoPage( "ankt" );};
 $scope.Headline28_click = function() {$scope.GotoPage( "a4nt" );};
 $scope.Headline50_click = function() {$scope.GotoPage( "temkt" );};
+$scope.TextArea12_change = function() {localStorage.setItem("KnowTNotesQg",$App.KnowTNotesQg);};
+$scope.Headline54_click = function() {$scope.GotoPage( "KnowThyself" );};
+$scope.Headline55_click = function() {$scope.GotoPage( "KnowThyself" );};
 });
 NeoApp.controller("ankt_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
