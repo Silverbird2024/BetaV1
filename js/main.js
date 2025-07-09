@@ -91,8 +91,6 @@ $App.Container = localStorage.getItem("Container");
 $scope.ObjectToFront($App.Container);};
 $scope.PushButton39_click = function() {$App.adhd = localStorage.getItem("adhd");
 $scope.GotoPage( "ADHDhelper" );};
-$scope.Ellipse2_click = function() {localStorage.setItem("go","go");
-$App.go = localStorage.getItem("go");};
 });
 NeoApp.controller("Templates1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
