@@ -8,7 +8,11 @@ if ($App.go == "go") {
 $App.start = "09/07/2025";
 $App.since = dtDateDiff( $App.start, $App.NAB.DayNum+"/"+$App.NAB.MonthNum+"/"+$App.NAB.Year, "dd/mm/yyyy" );
 } else {
-};};
+};
+$App.hpc = localStorage.getItem("hpc");
+$App.wpc = localStorage.getItem("wpc");
+$App.adpc = localStorage.getItem("adpc");
+$App.eepc = localStorage.getItem("eepc");};
 angular.element(document).ready( function(){
 $scope.__init();
 neo = angular.element(document.getElementById("ng-view")).scope();neo.Refresh();});
@@ -94,11 +98,33 @@ $App.adhd1 = localStorage.getItem("adhd1");
 $scope.GotoPage( "ADHDhelper" );};
 $scope.PushButton40_click = function() {$App.OrderTidy2 = localStorage.getItem("OrderTidy2");
 $App.OrderTidy = localStorage.getItem("OrderTidy");
+$App.OrderTidy3 = localStorage.getItem("OrderTidy3");
 $scope.GotoPage( "OrderTidy" );};
 $scope.Ellipse1_click = function() {$App.NotesD1 = localStorage.getItem("NotesD1");
 $scope.GotoPage( "Day1" );};
 $scope.Headline139_click = function() {$App.NotesD1 = localStorage.getItem("NotesD1");
 $scope.GotoPage( "Day1" );};
+$scope.Headline142_click = function() {$App.hpc = $scope.Calculate($App.hpc+"+1",-1);
+localStorage.setItem("hpc",$App.hpc);};
+$scope.hide1_click = function() {$App.hpc = "10";
+$App.wpc = "10";
+$App.adpc = "10";
+$App.eepc = "10";
+$scope.HideObject("hide1","",0);};
+$scope.Headline143_click = function() {$App.hpc = $scope.Calculate($App.hpc+"-1",-1);
+localStorage.setItem("hpc",$App.hpc);};
+$scope.Headline144_click = function() {$App.adpc = $scope.Calculate($App.adpc+"+1",-1);
+localStorage.setItem("adpc",$App.adpc);};
+$scope.Headline145_click = function() {$App.adpc = $scope.Calculate($App.adpc+"-1",-1);
+localStorage.setItem("adpc",$App.adpc);};
+$scope.Headline146_click = function() {$App.eepc = $scope.Calculate($App.eepc+"+1",-1);
+localStorage.setItem("eepc",$App.eepc);};
+$scope.Headline147_click = function() {$App.eepc = $scope.Calculate($App.eepc+"-1",-1);
+localStorage.setItem("eepc",$App.eepc);};
+$scope.Headline148_click = function() {$App.wpc = $scope.Calculate($App.wpc+"+1",-1);
+localStorage.setItem("wpc",$App.wpc);};
+$scope.Headline149_click = function() {$App.wpc = $scope.Calculate($App.wpc+"-1",-1);
+localStorage.setItem("wpc",$App.wpc);};
 });
 NeoApp.controller("Templates1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
@@ -146,7 +172,8 @@ $App.NAB.PageNumber = 7;
 $App.NAB.PageID = "OrderTidy";
 $scope.PushButton43_click = function() {$scope.GotoPage( "Home" );};
 $scope.TextArea60_change = function() {localStorage.setItem("OrderTidy",$App.OrderTidy);};
-$scope.TextArea61_change = function() {localStorage.setItem("OrderTidy2",$App.OrderTidy2);};
+$scope.TextArea61_change = function() {localStorage.setItem("OrderTidy3",$App.OrderTidy3);};
+$scope.TextArea62_change = function() {localStorage.setItem("OrderTidy2",$App.OrderTidy2);};
 });
 NeoApp.controller("DailySheet_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 8;
