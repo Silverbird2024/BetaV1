@@ -106,10 +106,10 @@ $scope.Headline139_click = function() {$App.NotesD1 = localStorage.getItem("Note
 $scope.GotoPage( "Day1" );};
 $scope.Headline142_click = function() {$App.hpc = $scope.Calculate($App.hpc+"+1",-1);
 localStorage.setItem("hpc",$App.hpc);};
-$scope.hide1_click = function() {$App.hpc = "10";
-$App.wpc = "10";
-$App.adpc = "10";
-$App.eepc = "10";
+$scope.hide1_click = function() {$App.hpc = "26";
+$App.wpc = "24";
+$App.adpc = "25";
+$App.eepc = "25";
 $scope.HideObject("hide1","",0);};
 $scope.Headline143_click = function() {$App.hpc = $scope.Calculate($App.hpc+"-1",-1);
 localStorage.setItem("hpc",$App.hpc);};
