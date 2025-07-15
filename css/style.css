@@ -10,7 +10,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton459 {position:absolute;left:18px;width:165px;top:38.3152173913043%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
 #PushButton459:hover {box-shadow:3px 3px 3px lime}
 #PushButton458 {position:absolute;left:286px;width:102px;top:1.4945652173913%;height:5.84239130434783%;margin:0;opacity:0.17}
-#PushButton458:hover {color:lime;text-shadow:2px 2px 5px lime;opacity:0.9}
+#PushButton458:hover {color:white;text-shadow:2px 2px 5px lime;opacity:0.9}
 #PushButton461 {position:absolute;left:189px;width:186px;top:38.3152173913043%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
 #PushButton461:hover {color:lime;box-shadow:3px 3px 3px lime;opacity:0.45}
 #PushButton3 {position:absolute;left:17px;width:114px;top:25.8152173913043%;height:5.84239130434783%;margin:0;font-size:14pt;box-shadow:3px 3px 3px red;opacity:0.57}
@@ -73,6 +73,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline175 {position:absolute;left:21px;width:77px;top:32.3369565217391%;height:5.29891304347826%;margin:0;color:White;font-size:17pt}
 #Headline184 {position:absolute;left:22px;width:77px;top:93.6141304347826%;height:3.26086956521739%;margin:0;color:#E0E0E0;font-size:14pt;font-weight:600}
 #Headline184:hover {color:red}
+#Headline188 {position:absolute;left:311px;width:77px;top:33.1521739130435%;height:4.6195652173913%;margin:0;color:White;font-size:17pt}
 #myquiz {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
 #Headline155 {position:absolute;left:21px;width:358px;top:61.2771739130435%;height:36.4130434782609%;margin:0;color:white;font-size:8pt}
 #PushButton52 {position:absolute;left:26px;width:55px;top:2.30978260869565%;height:4.89130434782609%;margin:0;}
@@ -84,7 +85,31 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton57 {position:absolute;left:350px;width:33px;top:25.8152173913043%;height:3.53260869565217%;margin:0;font-size:8pt;line-height:90%}
 #PushButton60 {position:absolute;left:280px;width:102px;top:2.85326086956522%;height:5.84239130434783%;margin:0;opacity:0.17}
 #PushButton60:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
-#Headline182 {position:absolute;left:434px;width:254px;top:7.7445652173913%;height:90.8967391304348%;margin:0;color:silver;font-size:10pt}
+#Headline182 {position:absolute;left:141px;width:254px;top:39.2663043478261%;height:39.4021739130435%;margin:0;color:silver;font-size:10pt}
+#FPOM {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
+#Headline187 {position:absolute;left:28px;width:316px;top:17.5271739130435%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#PushButton68 {position:absolute;left:280px;width:102px;top:2.85326086956522%;height:5.84239130434783%;margin:0;opacity:0.17}
+#PushButton68:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
+#Headline186 {position:absolute;left:24px;width:242px;top:3.53260869565217%;height:5.70652173913043%;margin:0;color:white}
+#NumericInput1 {position:absolute;left:142px;width:110px;top:74.320652173913%;height:4.6195652173913%;margin:0;}
+#TextArea92 {position:absolute;left:26px;width:355px;top:20.6521739130435%;height:52.0380434782609%;margin:0;}
+#NumericInput2 {position:absolute;left:142px;width:110px;top:79.6195652173913%;height:4.6195652173913%;margin:0;}
+#NumericInput3 {position:absolute;left:142px;width:110px;top:84.9184782608696%;height:4.6195652173913%;margin:0;}
+#NumericInput4 {position:absolute;left:142px;width:110px;top:90.2173913043478%;height:4.6195652173913%;margin:0;}
+#NumericInput5 {position:absolute;left:142px;width:110px;top:95.3804347826087%;height:4.6195652173913%;margin:0;}
+#NumericInput6 {position:absolute;left:142px;width:110px;top:100.679347826087%;height:4.6195652173913%;margin:0;}
+#NumericInput7 {position:absolute;left:142px;width:110px;top:105.978260869565%;height:4.6195652173913%;margin:0;}
+#NumericInput8 {position:absolute;left:142px;width:110px;top:111.277173913043%;height:4.6195652173913%;margin:0;}
+#NumericInput9 {position:absolute;left:142px;width:110px;top:116.576086956522%;height:4.6195652173913%;margin:0;}
+#NumericInput10 {position:absolute;left:142px;width:110px;top:121.739130434783%;height:4.6195652173913%;margin:0;}
+#Headline189 {position:absolute;left:6px;width:129px;top:74.320652173913%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#Headline190 {position:absolute;left:6px;width:129px;top:79.7554347826087%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#Headline191 {position:absolute;left:6px;width:129px;top:85.3260869565217%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#Headline192 {position:absolute;left:6px;width:129px;top:90.625%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#Headline193 {position:absolute;left:6px;width:129px;top:95.6521739130435%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#PushButton62 {position:absolute;left:316px;width:60px;top:74.1847826086957%;height:4.7554347826087%;margin:0;}
+#Headline194 {position:absolute;left:23px;width:364px;top:9.375%;height:7.33695652173913%;margin:0;color:silver;font-size:9pt}
+#Headline194:hover {color:white;font-size:9pt}
 #variables {position:relative;width:100%;height:100%;overflow:auto;;background-color:#FFF}
 #Headline183 {position:absolute;left:25px;width:367px;top:24.4565217391304%;height:382.472826086957%;margin:0;color:black;font-size:9pt}
 #Headline185 {position:absolute;left:22px;width:379px;top:7.20108695652174%;height:16.9836956521739%;margin:0;}
@@ -258,8 +283,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton6:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
 #Headline9 {position:absolute;left:19px;width:151px;top:2.30978260869565%;height:4.48369565217391%;margin:0;color:#A0522D;font-size:19pt;font-weight:600}
 #Headline10 {position:absolute;left:20px;width:244px;top:6.79347826086957%;height:6.38586956521739%;margin:0;color:#FFFFFF}
-#TextArea4 {position:absolute;left:29px;width:357px;top:24.8641304347826%;height:22.4184782608696%;margin:0;color:#707070;font-size:12pt;font-weight:600;background-color:#E0E0E0}
-#Headline135 {position:absolute;left:27px;width:298px;top:21.0597826086957%;height:4.07608695652174%;margin:0;color:#E0E0E0;font-size:13pt}
+#TextArea4 {position:absolute;left:29px;width:357px;top:22.1467391304348%;height:27.7173913043478%;margin:0;color:#707070;font-size:12pt;font-weight:600;background-color:#E0E0E0}
+#Headline135 {position:absolute;left:26px;width:298px;top:18.75%;height:4.07608695652174%;margin:0;color:#E0E0E0;font-size:13pt}
 #TextArea47 {position:absolute;left:29px;width:233px;top:53.5326086956522%;height:66.7119565217391%;margin:0;color:#707070;font-size:11pt;font-weight:600;background-color:#E0E0E0}
 #TextArea48 {position:absolute;left:266px;width:119px;top:53.5326086956522%;height:66.7119565217391%;margin:0;color:#0000FF;font-size:9pt;font-weight:600;background-color:#E0E0E0}
 #Headline136 {position:absolute;left:31px;width:227px;top:49.8641304347826%;height:3.66847826086957%;margin:0;color:#E0E0E0;font-size:13pt}
@@ -295,7 +320,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Line1 {position:absolute;left:-1043px;width:3px;top:-1.35869565217391%;height:29.4836956521739%;margin:0;stroke:black;stroke-width:1px}
 #TextArea73 {position:absolute;left:12px;width:353px;top:43.4782608695652%;height:15.0815217391304%;margin:0;}
 #Headline158 {position:absolute;left:204px;width:157px;top:59.5108695652174%;height:4.34782608695652%;margin:0;color:white;font-size:18pt}
-#Headline178 {position:absolute;left:24px;width:185px;top:12.2282608695652%;height:13.179347826087%;margin:0;color:silver;font-size:9pt}
+#Headline178 {position:absolute;left:24px;width:185px;top:12.2282608695652%;height:13.179347826087%;margin:0;color:silver;font-size:10pt}
 #Headline178:hover {color:white;font-size:9pt}
 #KnowThyself {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton10 {position:absolute;left:280px;width:102px;top:2.85326086956522%;height:5.84239130434783%;margin:0;opacity:0.17}
