@@ -86,8 +86,10 @@ $App.KnowTHealth01 = localStorage.getItem("KnowTHealth01");
 $App.KnowTHealth01a = localStorage.getItem("KnowTHealth01a");
 $scope.GotoPage( "KnowThyself" );};
 $scope.PushButton12_click = function() {$App.Notes = localStorage.getItem("Notes");
+$App.Notes1 = localStorage.getItem("Notes1");
 $scope.GotoPage( "Diary" );};
 $scope.PushButton23_click = function() {$App.DictionaryNotes = localStorage.getItem("DictionaryNotes");
+$App.DictionaryNotes1 = localStorage.getItem("DictionaryNotes1");
 $scope.GotoPage( "Dictionary" );};
 $scope.PushButton38_click = function() {$App.Forname = localStorage.getItem("Forname");
 $App.Surname = localStorage.getItem("Surname");
@@ -280,6 +282,7 @@ $App.h2002 = localStorage.getItem("h2002");
 $App.h2003 = localStorage.getItem("h2003");
 $App.h2004 = localStorage.getItem("h2004");
 $App.h2005 = localStorage.getItem("h2005");
+$App.h2001d = localStorage.getItem("h2001d");
 $scope.GotoPage( "FPOM" );};
 });
 NeoApp.controller("myquiz_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
@@ -312,16 +315,8 @@ $scope.NumericInput7_change = function() {localStorage.setItem("Fpom7",$App.Ppom
 $scope.NumericInput8_change = function() {localStorage.setItem("Fpom8",$App.Ppom8);};
 $scope.NumericInput9_change = function() {localStorage.setItem("Fpom9",$App.Ppom9);};
 $scope.NumericInput10_change = function() {localStorage.setItem("Fpom10",$App.Ppom10);};
-$scope.PushButton62_click = function() {$App.h2001 = "Test data 1";
-$App.h2002 = "Test data 2";
-$App.h2003 = "Test data 3";
-$App.h2004 = "Test data 4";
-$App.h2005 = "Test data 5";
-localStorage.setItem("h2001",$App.h2001);
-localStorage.setItem("h2002",$App.h2002);
-localStorage.setItem("h2003",$App.h2003);
-localStorage.setItem("h2004",$App.h2004);
-localStorage.setItem("h2005",$App.h2005);};
+$scope.TextInput1_change = function() {localStorage.setItem("h2001d",$App.h2001d);};
+$scope.PushButton62_click = function() {$App.h2001d = localStorage.getItem("h2001d");};
 });
 NeoApp.controller("variables_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 4;
@@ -368,6 +363,7 @@ $App.NAB.PageNumber = 8;
 $App.NAB.PageID = "Diary";
 $scope.PushButton11_click = function() {$scope.GotoPage( "Home" );};
 $scope.TextArea7_change = function() {localStorage.setItem("Notes",$App.Notes);};
+$scope.TextArea93_change = function() {localStorage.setItem("Notes1",$App.Notes1);};
 });
 NeoApp.controller("MyPhilosophy_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 9;
@@ -454,6 +450,7 @@ $App.NAB.PageNumber = 17;
 $App.NAB.PageID = "Dictionary";
 $scope.PushButton24_click = function() {$scope.GotoPage( "Home" );};
 $scope.TextArea36_change = function() {localStorage.setItem("DictionaryNotes",$App.DictionaryNotes);};
+$scope.TextArea94_change = function() {localStorage.setItem("DictionaryNotes1",$App.DictionaryNotes1);};
 });
 NeoApp.controller("Famous_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 18;
