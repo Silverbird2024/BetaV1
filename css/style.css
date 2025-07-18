@@ -41,7 +41,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline140 {position:absolute;left:278px;width:123px;top:7.20108695652174%;height:9.64673913043478%;margin:0;}
 #Headline140:hover {color:white;line-height:80%}
 #Ellipse1 {position:absolute;left:171px;width:77px;top:62.3641304347826%;height:7.8804347826087%;margin:0;fill:silver;opacity:0.43;stroke:black;stroke-width:1px}
-#Headline139 {position:absolute;left:190px;width:41px;top:65.0815217391304%;height:3.26086956521739%;margin:0;color:#E0E0E0;font-size:14pt;font-weight:600}
+#Headline139 {position:absolute;left:190px;width:41px;top:63.5869565217391%;height:3.26086956521739%;margin:0;color:#E0E0E0;font-size:14pt;font-weight:600}
 #Headline139:hover {color:red}
 #Line3 {position:absolute;left:240px;width:21px;top:62.3641304347826%;height:2.17391304347826%;margin:0;stroke:white;stroke-width:1px}
 #Line4 {position:absolute;left:208px;width:2px;top:70.1086956521739%;height:3.125%;margin:0;stroke:white;stroke-width:1px}
@@ -76,6 +76,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline188 {position:absolute;left:311px;width:77px;top:33.1521739130435%;height:4.6195652173913%;margin:0;color:White;font-size:17pt}
 #Headline193 {position:absolute;left:79px;width:63px;top:93.3423913043478%;height:4.6195652173913%;margin:0;color:White;font-size:17pt}
 #Headline195 {position:absolute;left:152px;width:196px;top:94.0217391304348%;height:3.53260869565217%;margin:0;color:red;font-size:14pt}
+#Headline196 {position:absolute;left:183px;width:63px;top:65.7608695652174%;height:3.39673913043478%;margin:0;color:white;font-size:16pt}
+#Headline196:hover {color:lime}
 #myquiz {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
 #Headline155 {position:absolute;left:21px;width:358px;top:61.2771739130435%;height:36.4130434782609%;margin:0;color:white;font-size:8pt}
 #PushButton52 {position:absolute;left:26px;width:55px;top:2.30978260869565%;height:4.89130434782609%;margin:0;}
