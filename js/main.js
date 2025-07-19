@@ -42,11 +42,11 @@ $scope.PushButton461_click = function() {$App.PrayerNotes = localStorage.getItem
 $scope.GotoPage( "Prayer" );};
 $scope.PushButton3_click = function() {$App.FamousNotes = localStorage.getItem("FamousNotes");
 $scope.GotoPage( "Famous" );};
-$scope.PushButton5_click = function() {$App.WorkNotes = localStorage.getItem("WorkNotes");
+$scope.workbut_click = function() {$App.WorkNotes = localStorage.getItem("WorkNotes");
 $App.WorkNotes1 = localStorage.getItem("WorkNotes1");
 $App.WorkNotes2 = localStorage.getItem("WorkNotes2");
 $scope.GotoPage( "Work" );};
-$scope.PushButton7_click = function() {$App.HealthNotes = localStorage.getItem("HealthNotes");
+$scope.healthbut_click = function() {$App.HealthNotes = localStorage.getItem("HealthNotes");
 $App.age = localStorage.getItem("age");
 $App.agem = localStorage.getItem("agem");
 $App.kneck = localStorage.getItem("kneck");
@@ -102,10 +102,10 @@ $App.email = localStorage.getItem("email");
 $scope.GotoPage( "Templates1" );
 $App.Container = localStorage.getItem("Container");
 $scope.ObjectToFront($App.Container);};
-$scope.PushButton39_click = function() {$App.adhd = localStorage.getItem("adhd");
+$scope.adhdhelperbut_click = function() {$App.adhd = localStorage.getItem("adhd");
 $App.adhd1 = localStorage.getItem("adhd1");
 $scope.GotoPage( "ADHDhelper" );};
-$scope.PushButton40_click = function() {$App.OrderTidy2 = localStorage.getItem("OrderTidy2");
+$scope.everytingelsebut_click = function() {$App.OrderTidy2 = localStorage.getItem("OrderTidy2");
 $App.OrderTidy = localStorage.getItem("OrderTidy");
 $App.OrderTidy3 = localStorage.getItem("OrderTidy3");
 $App.Project001 = localStorage.getItem("Project001");
@@ -124,7 +124,12 @@ $scope.GotoPage( "Day1" );};
 $scope.Headline142_click = function() {$App.hpc = $scope.Calculate($App.hpc+"+1",-1);
 localStorage.setItem("hpc",$App.hpc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.hide1_click = function() {$App.hpc = "26";
 $App.wpc = "24";
 $App.adpc = "25";
@@ -133,31 +138,66 @@ $scope.HideObject("hide1","",0);};
 $scope.Headline143_click = function() {$App.hpc = $scope.Calculate($App.hpc+"-1",-1);
 localStorage.setItem("hpc",$App.hpc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.Headline144_click = function() {$App.adpc = $scope.Calculate($App.adpc+"+1",-1);
 localStorage.setItem("adpc",$App.adpc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.Headline145_click = function() {$App.adpc = $scope.Calculate($App.adpc+"-1",-1);
 localStorage.setItem("adpc",$App.adpc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.Headline146_click = function() {$App.eepc = $scope.Calculate($App.eepc+"+1",-1);
 localStorage.setItem("eepc",$App.eepc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.Headline147_click = function() {$App.eepc = $scope.Calculate($App.eepc+"-1",-1);
 localStorage.setItem("eepc",$App.eepc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.Headline148_click = function() {$App.wpc = $scope.Calculate($App.wpc+"+1",-1);
 localStorage.setItem("wpc",$App.wpc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.Headline149_click = function() {$App.wpc = $scope.Calculate($App.wpc+"-1",-1);
 localStorage.setItem("wpc",$App.wpc);
 $App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
-localStorage.setItem("Tot",$App.Tot);};
+localStorage.setItem("Tot",$App.Tot);
+if ($App.Tot > "100") {
+$scope.SetObjectStyle("tot","color","red");
+} else {
+$scope.SetObjectStyle("tot","color","white");
+};};
 $scope.PushButton46_click = function() {$scope.GotoPage( "Settings" );};
 $scope.Headline154_click = function() {$App.googleSheet4 = "https://https://docs.google.com/spreadsheets/d/1FyGfS7LOaCiF_zge4-AxKja0I_ZYz4mdAu2YHjlupOg/edit?usp=sharingadd #gid=X";
 neoGSheetsLoadCell($App.googleSheet4,"Question001","a",1,null);
@@ -332,9 +372,25 @@ $App.h2004 = localStorage.getItem("h2004");
 $App.h2005 = localStorage.getItem("h2005");
 $App.h2001d = localStorage.getItem("h2001d");
 $scope.GotoPage( "Wf" );};
-$scope.Headline196_click = function() {$App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
+$scope.tot_click = function() {$App.Tot = $scope.Calculate($App.hpc+"+"+$App.wpc+"+"+$App.adpc+"+"+$App.eepc,-1);
 localStorage.setItem("Tot",$App.Tot);};
 $scope.Headline197_click = function() {$scope.GotoPage( "Timeline" );};
+$scope.PushButton65_click = function() {$scope.SetObjectStyle("workbut","color","red");
+$scope.SetObjectStyle("adhdhelperbut","color","black");
+$scope.SetObjectStyle("everytingelsebut","color","black");
+$scope.SetObjectStyle("healthbut","color","black");};
+$scope.PushButton5_click = function() {$scope.SetObjectStyle("workbut","color","black");
+$scope.SetObjectStyle("adhdhelperbut","color","black");
+$scope.SetObjectStyle("everytingelsebut","color","black");
+$scope.SetObjectStyle("healthbut","color","red");};
+$scope.PushButton7_click = function() {$scope.SetObjectStyle("workbut","color","black");
+$scope.SetObjectStyle("adhdhelperbut","color","red");
+$scope.SetObjectStyle("everytingelsebut","color","black");
+$scope.SetObjectStyle("healthbut","color","black");};
+$scope.PushButton39_click = function() {$scope.SetObjectStyle("workbut","color","black");
+$scope.SetObjectStyle("adhdhelperbut","color","black");
+$scope.SetObjectStyle("everytingelsebut","color","red");
+$scope.SetObjectStyle("healthbut","color","black");};
 });
 NeoApp.controller("myquiz_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
