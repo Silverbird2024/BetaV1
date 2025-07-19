@@ -75,7 +75,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline184:hover {color:red}
 #Headline188 {position:absolute;left:311px;width:77px;top:33.1521739130435%;height:4.6195652173913%;margin:0;color:White;font-size:17pt}
 #Headline193 {position:absolute;left:79px;width:63px;top:93.3423913043478%;height:4.6195652173913%;margin:0;color:White;font-size:17pt}
-#Headline195 {position:absolute;left:152px;width:251px;top:93.6141304347826%;height:5.70652173913043%;margin:0;color:#FF0000;font-size:14pt;font-weight:600;text-shadow:0px 0px 5px white}
+#Headline195 {position:absolute;left:152px;width:251px;top:93.6141304347826%;height:5.70652173913043%;margin:0;color:#FF0000;font-size:14pt;font-weight:600}
 #tot {position:absolute;left:183px;width:63px;top:65.7608695652174%;height:3.39673913043478%;margin:0;color:white;font-size:16pt}
 #tot:hover {color:lime}
 #Headline197 {position:absolute;left:19px;width:91px;top:72.6902173913043%;height:5.29891304347826%;margin:0;color:#E0E0E0;font-size:19pt;font-weight:600}
@@ -85,6 +85,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton7 {position:absolute;left:102px;width:25px;top:74.4565217391304%;height:2.71739130434783%;margin:0;opacity:0.11}
 #PushButton39 {position:absolute;left:189px;width:26px;top:83.695652173913%;height:2.71739130434783%;margin:0;opacity:0.11}
 #Headline132 {position:absolute;left:254px;width:120px;top:16.8478260869565%;height:6.38586956521739%;margin:0;color:#FFFFFF;font-size:14pt}
+#Headline199 {position:absolute;left:152px;width:251px;top:93.6141304347826%;height:5.70652173913043%;margin:0;color:#FF0000;font-size:14pt;font-weight:600}
+#Headline200 {position:absolute;left:152px;width:251px;top:93.6141304347826%;height:5.70652173913043%;margin:0;color:#A8A8A8;font-size:14pt;font-weight:600}
+#Headline201 {position:absolute;left:152px;width:251px;top:93.6141304347826%;height:5.70652173913043%;margin:0;color:#FF0000;font-size:14pt;font-weight:600}
+#Headline201:hover {color:white}
 #myquiz {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
 #Headline155 {position:absolute;left:21px;width:358px;top:61.2771739130435%;height:36.4130434782609%;margin:0;color:white;font-size:8pt}
 #PushButton52 {position:absolute;left:26px;width:55px;top:2.30978260869565%;height:4.89130434782609%;margin:0;}
@@ -98,25 +102,13 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton60:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
 #Headline182 {position:absolute;left:141px;width:254px;top:39.2663043478261%;height:39.4021739130435%;margin:0;color:silver;font-size:10pt}
 #FPOM {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
-#Headline187 {position:absolute;left:28px;width:316px;top:17.5271739130435%;height:3.94021739130435%;margin:0;color:white;font-size:13pt}
+#Headline187 {position:absolute;left:28px;width:344px;top:15.8967391304348%;height:5.70652173913043%;margin:0;color:white;font-size:25pt}
 #PushButton68 {position:absolute;left:280px;width:102px;top:2.85326086956522%;height:5.84239130434783%;margin:0;opacity:0.17}
 #PushButton68:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
-#Headline186 {position:absolute;left:24px;width:242px;top:3.53260869565217%;height:5.70652173913043%;margin:0;color:white;font-size:22pt}
-#NumericInput1 {position:absolute;left:187px;width:110px;top:74.1847826086957%;height:4.6195652173913%;margin:0;}
-#TextArea92 {position:absolute;left:26px;width:355px;top:20.6521739130435%;height:52.0380434782609%;margin:0;color:red;font-size:9pt}
-#NumericInput2 {position:absolute;left:187px;width:110px;top:79.4836956521739%;height:4.6195652173913%;margin:0;}
-#NumericInput3 {position:absolute;left:187px;width:110px;top:84.7826086956522%;height:4.6195652173913%;margin:0;}
-#NumericInput4 {position:absolute;left:187px;width:110px;top:90.0815217391304%;height:4.6195652173913%;margin:0;}
-#NumericInput5 {position:absolute;left:187px;width:110px;top:95.2445652173913%;height:4.6195652173913%;margin:0;}
-#NumericInput6 {position:absolute;left:187px;width:110px;top:100.54347826087%;height:4.6195652173913%;margin:0;}
-#NumericInput7 {position:absolute;left:187px;width:110px;top:105.842391304348%;height:4.6195652173913%;margin:0;}
-#NumericInput8 {position:absolute;left:187px;width:110px;top:111.141304347826%;height:4.6195652173913%;margin:0;}
-#NumericInput9 {position:absolute;left:187px;width:110px;top:116.440217391304%;height:4.6195652173913%;margin:0;}
-#NumericInput10 {position:absolute;left:187px;width:110px;top:121.603260869565%;height:4.6195652173913%;margin:0;}
+#Headline186 {position:absolute;left:24px;width:200px;top:2.03804347826087%;height:6.38586956521739%;margin:0;color:white;font-size:35pt}
+#TextArea92 {position:absolute;left:26px;width:355px;top:20.6521739130435%;height:103.125%;margin:0;color:red;font-size:9pt}
 #Headline194 {position:absolute;left:23px;width:364px;top:9.375%;height:7.33695652173913%;margin:0;color:white;font-size:9pt}
 #Headline194:hover {color:white;font-size:9pt}
-#TextInput1 {position:absolute;left:16px;width:161px;top:74.320652173913%;height:4.6195652173913%;margin:0;color:black}
-#PushButton62 {position:absolute;left:315px;width:42px;top:74.8641304347826%;height:3.39673913043478%;margin:0;}
 #variables {position:relative;width:100%;height:100%;overflow:auto;;background-color:#FFF}
 #Headline183 {position:absolute;left:14px;width:377px;top:23.9130434782609%;height:667.934782608696%;margin:0;color:black;font-size:8pt;letter-spacing:1px;line-height:95%;background-color:white}
 #Headline185 {position:absolute;left:22px;width:379px;top:7.20108695652174%;height:16.9836956521739%;margin:0;}
