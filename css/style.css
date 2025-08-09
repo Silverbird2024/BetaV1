@@ -11,7 +11,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton459:hover {box-shadow:3px 3px 3px lime}
 #PushButton458 {position:absolute;left:286px;width:102px;top:1.22282608695652%;height:5.84239130434783%;margin:0;opacity:0.17}
 #PushButton458:hover {color:white;text-shadow:2px 2px 5px lime;opacity:0.9}
-#PushButton461 {position:absolute;left:189px;width:186px;top:38.3152173913043%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
+#PushButton461 {position:absolute;left:190px;width:186px;top:38.3152173913043%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
 #PushButton461:hover {color:lime;box-shadow:3px 3px 3px lime;opacity:0.45}
 #PushButton3 {position:absolute;left:20px;width:114px;top:25.8152173913043%;height:5.84239130434783%;margin:0;font-size:14pt;box-shadow:3px 3px 3px red;opacity:0.57}
 #PushButton3:hover {box-shadow:3px 3px 3px lime}
@@ -27,9 +27,9 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton23:hover {box-shadow:3px 3px 3px lime}
 #PushButton38 {position:absolute;left:105px;width:194px;top:32.3369565217391%;height:5.16304347826087%;margin:0;font-size:14pt;box-shadow:3px 3px 3px red;opacity:0.57}
 #PushButton38:hover {box-shadow:3px 3px 3px lime}
-#adhdhelperbut {position:absolute;left:132px;width:149px;top:72.554347826087%;height:5.84239130434783%;margin:0;color:#707070;font-size:12pt;opacity:0.36}
+#adhdhelperbut {position:absolute;left:132px;width:149px;top:71.3315217391304%;height:6.92934782608696%;margin:0;color:#707070;font-size:12pt;opacity:0.36}
 #adhdhelperbut:hover {color:red}
-#everytingelsebut {position:absolute;left:45px;width:136px;top:83.1521739130435%;height:5.16304347826087%;margin:0;color:black;font-size:9pt;opacity:0.33}
+#everytingelsebut {position:absolute;left:45px;width:136px;top:83.1521739130435%;height:5.97826086956522%;margin:0;color:Red;font-size:9pt;opacity:0.33}
 #everytingelsebut:hover {color:#FF0000;box-shadow:3px 3px 3px lime}
 #hpc {position:absolute;left:60px;width:85px;top:62.2282608695652%;height:3.26086956521739%;margin:0;color:#E0E0E0;font-size:14pt;font-weight:600;text-align:center}
 #hpc:hover {color:red}
