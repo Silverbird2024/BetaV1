@@ -101,6 +101,32 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline80 {position:absolute;left:14px;width:141px;top:37.5%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:14pt}
 #TextArea35 {position:absolute;left:14px;width:144px;top:40.7608695652174%;height:75.5434782608696%;margin:0;}
 #Headline218 {position:absolute;left:13px;width:364px;top:12.0923913043478%;height:20.2445652173913%;margin:0;color:white;font-size:9pt}
+#Wf {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
+#Headline191 {position:absolute;left:12px;width:156px;top:2.85326086956522%;height:6.38586956521739%;margin:0;color:#FFFFFF}
+#PushButton63 {position:absolute;left:287px;width:102px;top:2.98913043478261%;height:5.84239130434783%;margin:0;opacity:0.17}
+#PushButton63:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
+#Headline190 {position:absolute;left:171px;width:211px;top:16.9836956521739%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:14pt}
+#TextArea95 {position:absolute;left:176px;width:220px;top:22.6902173913043%;height:163.994565217391%;margin:0;color:blue;font-size:9pt}
+#Headline192 {position:absolute;left:15px;width:150px;top:16.4402173913043%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:14pt}
+#TextArea96 {position:absolute;left:7px;width:164px;top:22.8260869565217%;height:163.586956521739%;margin:0;color:blue;font-size:9pt}
+#TextArea97 {position:absolute;left:172px;width:220px;top:10.3260869565217%;height:4.6195652173913%;margin:0;color:blue;font-size:9pt;font-weight:600}
+#Headline133 {position:absolute;left:172px;width:85px;top:6.38586956521739%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:19pt}
+#Headline134 {position:absolute;left:9px;width:60px;top:8.28804347826087%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:19pt}
+#Headline196 {position:absolute;left:9px;width:60px;top:12.2282608695652%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:19pt}
+#TextInput3 {position:absolute;left:71px;width:92px;top:8.55978260869565%;height:3.53260869565217%;margin:0;color:blue;font-size:9pt;font-weight:600}
+#TextInput4 {position:absolute;left:71px;width:92px;top:12.3641304347826%;height:3.53260869565217%;margin:0;color:blue;font-size:9pt;font-weight:600}
+#TextArea46 {position:absolute;left:424px;width:220px;top:5.02717391304348%;height:23.0978260869565%;margin:0;color:blue;font-size:8pt}
+#Headline130 {position:absolute;left:426px;width:225px;top:1.76630434782609%;height:3.53260869565217%;margin:0;color:#A8A8A8;font-size:12pt;font-weight:600}
+#Headline161 {position:absolute;left:428px;width:225px;top:29.4836956521739%;height:3.53260869565217%;margin:0;color:#A8A8A8;font-size:12pt;font-weight:600}
+#TextArea50 {position:absolute;left:426px;width:220px;top:32.7445652173913%;height:23.0978260869565%;margin:0;color:blue;font-size:8pt}
+#TextArea76 {position:absolute;left:14px;width:374px;top:194.972826086957%;height:6.25%;margin:0;color:black;font-size:12pt;font-weight:600}
+#TextArea122 {position:absolute;left:14px;width:374px;top:187.5%;height:6.25%;margin:0;color:black;font-size:12pt;font-weight:600}
+#TextArea123 {position:absolute;left:13px;width:374px;top:202.853260869565%;height:6.25%;margin:0;color:black;font-size:12pt;font-weight:600}
+#TextArea124 {position:absolute;left:10px;width:374px;top:210.869565217391%;height:6.25%;margin:0;color:black;font-size:12pt;font-weight:600}
+#Headline180 {position:absolute;left:426px;width:225px;top:58.2880434782609%;height:3.53260869565217%;margin:0;color:#A8A8A8;font-size:12pt;font-weight:600}
+#TextArea125 {position:absolute;left:424px;width:220px;top:61.5489130434783%;height:23.0978260869565%;margin:0;color:blue;font-size:8pt}
+#Headline181 {position:absolute;left:425px;width:225px;top:87.2282608695652%;height:3.53260869565217%;margin:0;color:#A8A8A8;font-size:12pt;font-weight:600}
+#TextArea126 {position:absolute;left:423px;width:220px;top:90.4891304347826%;height:95.9239130434783%;margin:0;color:blue;font-size:8pt}
 #myquiz {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
 #Headline155 {position:absolute;left:21px;width:358px;top:61.2771739130435%;height:36.4130434782609%;margin:0;color:white;font-size:8pt}
 #PushButton52 {position:absolute;left:26px;width:55px;top:2.30978260869565%;height:4.89130434782609%;margin:0;}
@@ -246,20 +272,6 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton64:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
 #Headline198 {position:absolute;left:30px;width:364px;top:34.2391304347826%;height:7.60869565217391%;margin:0;color:silver;font-size:14pt;font-weight:600;text-align:center;opacity:0.43}
 #TextArea100 {position:absolute;left:-1px;width:413px;top:101.494565217391%;height:8.42391304347826%;margin:0;}
-#Wf {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
-#Headline191 {position:absolute;left:12px;width:156px;top:2.85326086956522%;height:6.38586956521739%;margin:0;color:#FFFFFF}
-#PushButton63 {position:absolute;left:287px;width:102px;top:2.98913043478261%;height:5.84239130434783%;margin:0;opacity:0.17}
-#PushButton63:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
-#Headline190 {position:absolute;left:171px;width:211px;top:16.9836956521739%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:14pt}
-#TextArea95 {position:absolute;left:176px;width:220px;top:22.6902173913043%;height:163.994565217391%;margin:0;color:blue;font-size:9pt}
-#Headline192 {position:absolute;left:15px;width:150px;top:16.4402173913043%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:14pt}
-#TextArea96 {position:absolute;left:7px;width:164px;top:22.8260869565217%;height:163.586956521739%;margin:0;color:blue;font-size:9pt}
-#TextArea97 {position:absolute;left:172px;width:220px;top:10.3260869565217%;height:4.6195652173913%;margin:0;color:blue;font-size:9pt;font-weight:600}
-#Headline133 {position:absolute;left:172px;width:85px;top:6.38586956521739%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:19pt}
-#Headline134 {position:absolute;left:9px;width:60px;top:8.28804347826087%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:19pt}
-#Headline196 {position:absolute;left:9px;width:60px;top:12.2282608695652%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:19pt}
-#TextInput3 {position:absolute;left:71px;width:92px;top:8.55978260869565%;height:3.53260869565217%;margin:0;color:blue;font-size:9pt;font-weight:600}
-#TextInput4 {position:absolute;left:71px;width:92px;top:12.3641304347826%;height:3.53260869565217%;margin:0;color:blue;font-size:9pt;font-weight:600}
 #Settings {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton47 {position:absolute;left:280px;width:102px;top:2.85326086956522%;height:5.84239130434783%;margin:0;opacity:0.17}
 #PushButton47:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
